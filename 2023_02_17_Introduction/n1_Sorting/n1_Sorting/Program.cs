@@ -1,7 +1,13 @@
 ﻿namespace Program
 {
+    /// <summary>
+    /// First homework.
+    /// </summary>
     public class Sorting
     {
+        /// <summary>
+        /// Program start point.
+        /// </summary>
         static void Main()
         {
             Console.WriteLine("Enter numbers separated by spaces:");
@@ -15,6 +21,10 @@
             Console.WriteLine();
         }
 
+        /// <summary>
+        /// Sorts int[]. O(n^2)
+        /// </summary>
+        /// <param name="array">Array to sort.</param>
         public static void BubbleSort(int[] array)
         {
             int n = array.Length;
