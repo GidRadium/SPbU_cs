@@ -1,9 +1,9 @@
-﻿namespace Program
+﻿namespace n1_Sorting
 {
     /// <summary>
     /// First homework.
     /// </summary>
-    public class Sorting
+    public class Program
     {
         /// <summary>
         /// Program start point.
